@@ -1,7 +1,4 @@
-Job:
-  Image : maven:3.2-jdk-7
-  Command : mvn clean install
-  Status : Done
-
 Repo : https://github.com/shannonrdunn/github-maven-example
-Destination : TEST_ARTIFACT
+Image : maven:3.2-jdk-7
+Command : mvn clean install
+Status : Done
